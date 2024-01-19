@@ -1,0 +1,359 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    /* background-color: rgb(255, 255, 255); */
+    background-image: url('bacg2.jpg');
+    background-position: cover;
+    box-sizing: border-box;
+    position: relative;
+    padding-left: 4%;
+    padding-right: 3%;
+    text-decoration: none;
+}
+.navbar{
+    width: 100%;
+    height: 25vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+    text-decoration: none;
+}
+.shoe-logo{
+    width: 110px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+nav{
+    flex: 1;
+    padding-left: 480px;
+    text-decoration: none;
+    /* margin-left: 2px; */
+}
+nav ul li{
+    display:inline-block;
+    list-style: disc;
+    margin: 0 15px;
+    text-decoration: none;
+    /* color: aliceblue; */
+}
+nav ul li a{
+    color:black;
+    text-decoration: none;
+}
+.media-icons img{
+    width: 30px;
+}
+ul a:hover{
+    color: rgb(12, 58, 99);
+    transform: scale(0.7);
+}
+.content h1{
+    background-color: rgb(240, 222, 182);
+    display: inline-flex;
+    margin-top: 20px;
+}
+.content p{
+    margin-top: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.add img{
+    width: 50px;
+}
+
+.media-icons{
+    position: absolute;
+    bottom: 50px;
+    right: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+.media-icons li{
+    list-style: none;
+
+}
+
+.media-icons li a:hover{
+    transform: scale(0.7);
+    display: block;
+    color: aqua;
+}
+
+.btn{
+    background-color: azure;
+    margin-top: 30px;
+    margin-bottom: 24px;
+    padding: 10px 20px;
+    display: block;
+    font-size: 25px;
+    border-radius: 20px;
+    border: none;
+    color: blueviolet;
+    width: fit-content;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-size: 80%;
+    box-shadow: 3px 8px 22px coral;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.btn:hover{
+    color:blue;
+    background-color:coral;
+    transform: scale(1.1);
+}
+.add img:hover{
+    background-color: azure;
+    transform: scale(1.1);
+
+}
+.product{
+    position: absolute;
+    width: 30%;
+    height: 65%;
+    margin-bottom: 50px;
+    bottom: 0;
+    margin-left: 560px;
+    padding-left: 20%;
+    transform: rotate(-10deg);
+    /* background-color: rgb(15, 116, 204); */
+    /* min-width: 450px; */
+
+}
+.btn2{
+    background-color: azure;
+    margin-top: 30px;
+    margin-bottom: 24px;
+    padding: 15px 45px;
+    display: block;
+    font-size: 25px;
+    border-radius: 20px;
+    border: none;
+    color: blueviolet;
+    width: 19%;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-size: 80%;
+    box-shadow: 3px 8px 22px coral;
+    font-weight: 600;
+  
+}
+.btn2:hover{
+    color:blue;
+    background-color:coral;
+}
+.play-icon{
+    width: 50px;
+    margin-left: 90%;
+    margin-bottom:100% ;
+}
+.ind{
+    width: 50px;
+}
+.ind:hover{
+    color: blue;
+    background-color: rgb(212, 243, 241);
+    transform: scale(1.1);
+}
+.more img{
+    width: 500px;
+    display: flex;
+    margin-right: 50px;
+    margin-top: 50px;
+    justify-content: flex-end;
+    opacity: 1;
+}
+.more{
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(-50%);
+    display: flex;
+    flex-wrap: wrap;
+}
+.more li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    cursor: pointer;
+    transition: 0.5s;
+    transition: 0.2s all ease-in;
+
+}
+.more li img{
+    max-width: 60px;
+    opacity: 1;
+}
+.more li:hover{
+    transform: translateY(-10px);
+
+}
+.hello:hover{
+    color: rgb(238, 227, 227);
+    
+}
+h2{
+    background-color: rgb(229, 242, 242);
+    display: inline-flex;
+    margin-top: 2%;
+}
+
+.copy{
+    margin-left: 180px;
+    margin-top: 30px;
+    padding: 20px;
+}
+.size{
+    display: flex;
+    flex-flow: row-reverse;
+    padding: 5px;
+}
+.size div{
+    font-weight: 900;
+    margin: 5px;
+    padding: 13px;
+    border: 2px solid var(--silver);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: var(--silver);
+    
+}
+.chart{
+    border: 2px solid var(--silver);
+    color: var(--block);
+}
+h3{
+    margin-top: 10px;
+}
+h2{
+    background-color: black;
+    color: antiquewhite;
+}
+.ri-menu-line{
+    width: 20px;
+}
+.ri-menu-line:hover{
+    color: rgb(213, 232, 232);
+
+}
+ul li ul.dropdown li{
+    display: block;
+    margin: 2px 0px;
+    padding: 8%;
+}
+ul li ul.dropdown{
+    width: auto;
+    position: absolute;
+    z-index: 999;
+    display: none;
+     /* padding: 7% */
+}
+ul li:hover ul.dropdown{
+    display: block;
+}
+
+@media screen and (max-width:800px){
+    .product{
+        position: absolute;
+        right: 50px;
+        background-position: center;
+        background-size:30px;
+        z-index: 1000;
+        padding: 2em;
+        width: 110px;
+        height: 110px;
+        background-repeat: no-repeat;
+        
+
+    }
+    .upi{
+        position: fixed;
+        background-size: 25px;
+        right: 4px;
+        top: 55px;
+    }
+    .add{
+        position: fixed;
+        background-size: 25px;
+        right: 1px;
+        top: 2px;
+        bottom: 10px;
+    }
+    .navbar{
+        position: relative;
+        background-size: 5px;
+        /* left: 12px; */
+        bottom: 70px;
+        /* bottom: 10px; */
+
+    }
+    .hello {
+        position:fixed;
+        background-size: 20%;
+        left: 10px;
+        display:flex;
+        flex-direction:column;
+        justify-content:left;
+        list-style: none;
+        top: 130px;
+        bottom: 70px;
+
+    }
+    .more{
+        position: fixed;
+        top:550px;
+        display: block;
+        flex-direction:column;
+        background-size: 20px;
+        margin-bottom: 2px;
+        margin-top: 6px;
+        left: 35%;
+    }
+    .media-icons{
+        position: absolute;
+        top: 650px;
+        background-size: 10px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .btn{
+        /* display: flex; */
+        position: relative;
+        /* flex-direction: row; */
+        margin-bottom: 2px;
+        margin-top: 5px;
+    }
+    .copy{
+        margin-right: 70%;
+        display: none;
+    }
+    .ri-menu-line{
+        display: flex;
+        position: fixed;
+        top: 110px;
+    }
+    
+    .dropdown{
+        display: flex;
+        padding: 2%;
+        left: 270%;
+        top: -6%;
+        list-style: none;
+    }
+    
+       
+    
+}
+
+ 
+
